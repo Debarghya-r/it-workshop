@@ -5,15 +5,14 @@ import time
 from util import prepDir
 
 download_links = {
-    2017: [ "https://aclanthology.org/volumes/I17-1/", #104
-            "https://aclanthology.org/volumes/I17-2/", #77
-            "https://aclanthology.org/volumes/I17-3/", #18
-            "https://aclanthology.org/volumes/I17-4/", #37
+    2020: [ "https://aclanthology.org/volumes/2020.coling-main/", #613
+            "https://aclanthology.org/2020.coling-demos", #17
+            "https://aclanthology.org/2020.coling-tutorials", #8
+            "https://aclanthology.org/2020.coling-industry", #23
             "https://aclanthology.org/volumes/I17-5/", #7
-            ],
-    2019: [ "https://aclanthology.org/volumes/D19-1/", #682
-            "https://aclanthology.org/volumes/D19-2/", #7 no pdfs
-            "https://aclanthology.org/volumes/D19-3/", #45
+            "https://aclanthology.org/2020.argmining-1",#14
+           "https://aclanthology.org/2020.semeval-1",#301
+           "https://aclanthology.org/2020.wanlp-1",#35
             ]
 }
 pdf_root_dir= "./assets/papers/IJCNLP/pdf/"
